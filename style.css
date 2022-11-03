@@ -9,20 +9,21 @@ html, body {
 /*Header*/
 
 /*Navbar*/
+
 .list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     height: 100px;
-  }
-  
+}
+
 .item {
     padding: 20px 16px;
     display: table-cell;
     text-align: center;
-  }
-  
+}
+
 .item a {
     display: block;
     color: white;
@@ -60,18 +61,20 @@ html, body {
     left: 10%;
 }
 
-@media (max-width: 992px) {
+/*Navbar*/
+
+@media only screen and (max-width: 992px) {
     .brand{
         display: none;
     }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-
-
-
-
-
 /*Logo-MOMNTUM*/
+
 .brand {
         position: absolute;
         pointer-events: none;
@@ -101,7 +104,9 @@ html, body {
     margin: 1rem;
     color: black;
 }
+
 /*footer-social*/
+
 .social-title{
     font-weight: 700;
 }
@@ -167,11 +172,6 @@ html, body {
     font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
     font-size: smaller;
     font-style: normal;
-}
-.info h4{
-    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
-    font-style: normal;
-    letter-spacing: .2em;
 }
 
 .subscribe{
