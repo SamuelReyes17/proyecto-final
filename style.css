@@ -63,16 +63,6 @@ html, body {
 
 /*Navbar*/
 
-@media only screen and (max-width: 992px) {
-    .brand{
-        display: none;
-    }
-    .navbar ul{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 /*Logo-MOMNTUM*/
 
 .brand {
@@ -144,6 +134,16 @@ html, body {
     list-style: none;
     justify-content: space-between;
 }
+@media only screen and (max-width: 992px) {
+    .brand{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 22rem;
+    }
+}
 .footer{
     background-color: #ededed;
 }
@@ -209,6 +209,18 @@ html, body {
 }
 .text-about{
     padding: 0 50px;
+}
+@media only screen and (max-width: 992px) {
+    .brand{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-about{
+        padding: 0;
+    }
 }
 .btn-cart{
     font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;

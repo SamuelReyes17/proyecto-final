@@ -5,14 +5,21 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!--Bootsrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap"
+    rel="stylesheet" />
   <title>MOMNTUM</title>
-  <link href="../images/icon.jfif" rel="icon" />
+  <link href="images/icon.jfif" rel="icon" />
 </head>
 
 <body>
+
   <!--Header-->
   <header>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -24,24 +31,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav list">
             <li class="nav-item item">
-              <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item item">
-              <a class="nav-link" href="shop.html">SHOP</a>
+              <a class="nav-link" href="main/shop.html">SHOP</a>
             </li>
             <li class="nav-item item">
-              <a class="nav-link" href="about.html">ABOUT</a>
+              <a class="nav-link" href="main/about.html">ABOUT</a>
             </li>
             <li class="nav-item item">
-              <a class="nav-link" href="social.html">SOCIAL</a>
+              <a class="nav-link" href="main/shop.html">SOCIAL</a>
             </li>
           </ul>
         </div>
         <div class="brand">
-          <img class="rounded mx-auto d-block" src="../images/momentum.jpg" />
+          <img class="rounded mx-auto d-block" src="images/momentum.jpg" />
         </div>
         <div>
-          <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+          <a href="main/cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
               class="bi bi-bag" viewBox="0 0 16 16">
               <path
                 d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
@@ -52,51 +59,50 @@
   </header>
   <!--Header-->
 
+  <!--Carousel-->
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/d2DESK_2048x.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel-1.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel-2.webp" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carousel-->
 
-  <section class="bg-success p-2 text-dark bg-opacity-10">
-    <div class="text-justify w-50 mx-auto">
-      <p class="text-center font-weight-light title-about fw-semibold">ABOUT</p>
-      <div class="text-about">
-        <p class="fs-6 fw-light">
-          MOMNTUM Studios is a fashion brand that combines classic minimalism
-          with silhouettes of different nostalgic references from the 70´s to the 00´s.
-        </p>
-        <p class="fs-6 fw-light">
-          All garments are produced from start to finish in Europe. We aim to
-          support sustainability to honor the creation of God by providing garments that are high quality, a ffordable
-          and made to last a decade.
-        </p>
+  <!--Products-->
+  <section class="container mt-4">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 zoom">
+        <img class="img-fluid" src="images/shirtss.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 zoom">
+        <img class="img-fluid" src="images/Untitled-1copy_1296x.webp" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 zoom">
+        <img class="img-fluid" src="images/hoodies.jpg" alt="">
       </div>
     </div>
   </section>
-
-
-  <section>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../images/about.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="../images/carousel-about2.webp" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-
+  <!--Products-->
 
   <!--Footer-->
   <footer>
     <div class="brand-footer">
-      <img class="footer-image rounded mx-auto d-block" src="../images/momentum-purple.jpg" />
+      <img class="footer-image rounded mx-auto d-block" src="images/momentum-purple.jpg" />
     </div>
     <nav class="navbar navbar-expand-lg mt-4">
       <div class="container-fluid">
@@ -146,6 +152,7 @@
   </footer>
   <!--Footer-->
 
+  <!--Bootsrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
