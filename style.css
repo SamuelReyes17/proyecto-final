@@ -43,6 +43,7 @@ html, body {
 
 .item {
     position:relative;
+    
 }
 
 .item::after {
@@ -159,27 +160,6 @@ html, body {
     font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
     font-size:medium;
     font-style: normal;
-}
-.info{
-    padding: 2rem 0 1rem 2rem;
-}
-.info a{
-    padding-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    text-decoration: none;
-    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
-    font-size: smaller;
-    font-style: normal;
-}
-
-.subscribe{
-    padding-top: 2rem;
-    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
-    font-size: smaller;
-    font-style: normal;
-    letter-spacing: .1rem;
 }
 .btn{
     margin-top: 1rem;

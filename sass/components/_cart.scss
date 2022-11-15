@@ -1,0 +1,21 @@
+/*Cart*/
+
+.btn{
+    margin-top: 1rem;
+    .btn-cart{
+        font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+        letter-spacing: .1rem;
+        text-align: center;
+        margin: 3rem 2rem 2rem 2rem;
+    }
+}
+.cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-btn{
+    text-decoration: none;
+    color: black;
+}
+
