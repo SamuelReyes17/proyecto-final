@@ -1,14 +1,15 @@
 /*Media query*/
 @media only screen and (max-width: 992px) {
-    .brand{
+    .brand {
         display: none;
     }
-    .navbar ul{
+    
+    .navbar ul {
         display: flex;
         flex-direction: column;
         padding-bottom: 22rem;
     }
-    .text-about{
+    .text-about {
         padding: 0;
     }
-}
+    }
